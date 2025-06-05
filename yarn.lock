@@ -1401,9 +1401,9 @@ __metadata:
   linkType: hard
 
 "@babel/runtime@npm:^7.8.4":
-  version: 7.27.4
-  resolution: "@babel/runtime@npm:7.27.4"
-  checksum: 045eac233660488a38cd7186c34428d7f4c98ee0f111fe5ff1d80c9fc5e6efd7f55fdcd5279065444ddef63c2e99591698810ea4aa71dc673195c23015484a49
+  version: 7.27.6
+  resolution: "@babel/runtime@npm:7.27.6"
+  checksum: 3f7b879df1823c0926bd5dbc941c62f5d60faa790c1aab9758c04799e1f04ee8d93553be9ec059d4e5882f19fe03cbe8933ee4f46212dced0f6d8205992c9c9a
   languageName: node
   linkType: hard
 
@@ -7377,9 +7377,9 @@ __metadata:
   linkType: hard
 
 "parse-duration@npm:^1.0.0, parse-duration@npm:^1.0.2":
-  version: 1.1.0
-  resolution: "parse-duration@npm:1.1.0"
-  checksum: 3cfc10aa61b3a06373a347289e1704de47d5d845c79330bbab20b54c02567f3710ba84544a3a44a986c3381c68670d89542fe9de607fb0814e52f78b34893cd9
+  version: 1.1.2
+  resolution: "parse-duration@npm:1.1.2"
+  checksum: c31ebdee783935afe250fd79cdfab9d14e196ee2a810e6a7abbdef6d945a1b88797972437c9e5ed10e8e1cb5cd68b7cc13e9ac9721839f0cb1c2f5fe837d99d9
   languageName: node
   linkType: hard
 
