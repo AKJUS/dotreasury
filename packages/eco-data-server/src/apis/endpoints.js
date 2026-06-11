@@ -1,7 +1,13 @@
 const endpoints = Object.freeze({
-  polkadot: ["wss://rpc.polkadot.io", "wss://polkadot.ibp.network"],
-  kusama: ["wss://kusama-rpc.polkadot.io", "wss://kusama.ibp.network"],
-  hydradx: ["wss://rpc.hydradx.cloud", "wss://hydration.ibp.network"],
+  polkadot: [
+    "wss://rpc.polkadot.io",
+    "wss://polkadot.api.onfinality.io/public-ws",
+  ],
+  kusama: [
+    "wss://kusama-rpc.polkadot.io",
+    "wss://kusama.api.onfinality.io/public-ws",
+  ],
+  hydradx: ["wss://rpc.hydradx.cloud", "wss://hydration-rpc.n.dwellir.com"],
   basilisk: ["wss://rpc.basilisk.cloud"],
   interlay: [
     "wss://api.interlay.io/parachain",
@@ -25,13 +31,18 @@ const endpoints = Object.freeze({
   ],
   polkadotAssetHub: [
     "wss://polkadot-asset-hub-rpc.polkadot.io",
-    "wss://asset-hub-polkadot.ibp.network",
+    "wss://asset-hub-polkadot-rpc.n.dwellir.com",
+    "wss://dot-rpc.stakeworld.io/assethub",
   ],
   kusamaAssetHub: [
     "wss://kusama-asset-hub-rpc.polkadot.io",
-    "wss://asset-hub-kusama.ibp.network",
+    "wss://asset-hub-kusama-rpc.n.dwellir.com",
+    "wss://rpc-asset-hub-kusama.luckyfriday.io",
   ],
-  astar: ["wss://rpc.astar.network/"],
+  astar: [
+    "wss://rpc.astar.network/",
+    "wss://astar.api.onfinality.io/public-ws",
+  ],
 });
 
 module.exports = {
