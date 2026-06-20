@@ -23,7 +23,7 @@
     "lodash.negate": "^3.0.2",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
-    "markdown-it": "^12.3.2",
+    "markdown-it": "^14.2.0",
     "mongodb": "6.1.0",
     "node-fetch": "^3.3.0",
     "pluralize": "^8.0.0"
